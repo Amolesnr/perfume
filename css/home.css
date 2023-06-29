@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f3ebe4;
+}
+
+.parent{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.child-one{
+    background-image: url(/img/img.jpg);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.child-two{
+    width: 70%;
+    padding: 5%;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: #27ad78;
+}
+
+.finish a{
+    color:blue ;
+}
+
+.finish {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.child-two h6{
+    letter-spacing: 6px;
+    padding-bottom: 30px;
+    color:grey ;
+    margin-left: 20px;
+    margin-top: 11px;
+}
+
+.child-two h1{
+    padding-bottom: 30px;
+    margin-left: 25px;
+}
+
+.child-two p{
+    color: grey;
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+.child-two h3 {
+    font-size: 30px;
+    color: #27ad78;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.child-two button{
+    width: 180px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #41886b;
+    margin-left: 30px;
+}
+
+.pricecontainer{
+display: flex;
+gap: 1rem;
+align-items: center;
+}
+
+.pricecontainer .currentprice{
+    color: hsl(158, 36%, 37%);
+}
+
+.pricecontainer .oldprice{  
+    font-family: "montserrat";
+    color: hsl(228 , 12%, 48%);
+    text-decoration: line-through;
+}
+
